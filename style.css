@@ -1,0 +1,50 @@
+body{
+    color: #555;
+    background-color: #85c0c5;
+}
+.contenedor-lista{
+    width: auto;
+    max-width: 400px;
+    margin: 30px auto;
+  }
+  .lista{
+    background-color: white;
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+    border-radius: 2px;
+    box-shadow: 0 2px 7px black;
+}
+ .lista-li{
+    display: flex;
+    padding: 10px 5px;
+}
+.lista-li:not(:last-child){
+    border-bottom: 1px solid #EEE; /* No pone borde solido en el ultimo hijo */
+}
+.lista .imagen{
+    
+    height: 80px;
+}
+    .imagen img{
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+    }
+
+
+ .contenido{
+    flex-grow: 1;
+    padding: 0 20px;
+}
+ .list-contenido h4{
+        margin: 0;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+ .list-contenido p{
+        margin-top: 5px;
+        color: #AAA;
+        margin-bottom: 0;
+    }
